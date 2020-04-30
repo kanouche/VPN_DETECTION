@@ -10,11 +10,13 @@ At the start of this project, proper data mining techniques will be utilized to 
 ## Tools and Librairies
 
 Python 3.6
+
 Librairies:
    - pandas  
    - keras 
    - sklearn 
    - tensorflow
+
 Technologies:
    - [Netflowmeter](https://netflowmeter.ca)
    - [IPinfo](https://ipinfo.io/)
@@ -27,7 +29,8 @@ for our clean data set, we added removed unwanted columns and added new ones for
 For this project, we agreed on developing the two main following features:
 
      - Connection-based features : The window here is X number of connections preceding the current netflow.
-  
            
      - Time-based features : The window here is X minutes (or seconds) preceding the current netflow timestamp. 
+     
+     Refer to Sprint 7 in [Sprints and Planning](https://github.com/kanouche/VPN_DETECTION/wiki/Sprints-and-Planning)
             
