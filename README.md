@@ -23,14 +23,14 @@ Technologies:
 
 ## Data preprocessing & Exploration
 
-for our clean data set, we added removed unwanted columns and added new ones for ports type, latitude and longitude. For port type, please refer to [Data preprocessing](https://github.com/kanouche/VPN_DETECTION/wiki/Planning). Latitude and longitude were generated using IPinfo, code is at **location.py** file, and ports were processed in the file **ports.py**.
+for our clean data set, we added removed unwanted columns and added new ones for ports type, latitude and longitude. For port type, please refer to [Data preprocessing](https://github.com/kanouche/VPN_DETECTION/wiki/Sprints-and-Planning). Latitude and longitude were generated using IPinfo, code is at **location.py** file, and ports were processed in the file **ports.py**.
 
 ## Feature Engineerring
+
 For this project, we agreed on developing the two main following features:
 
      - Connection-based features : The window here is X number of connections preceding the current netflow.
            
      - Time-based features : The window here is X minutes (or seconds) preceding the current netflow timestamp. 
      
-     Refer to Sprint 7 in [Sprints and Planning](https://github.com/kanouche/VPN_DETECTION/wiki/Sprints-and-Planning)
-            
+Refer to Sprint 7 in [Sprints and Planning](https://github.com/kanouche/VPN_DETECTION/wiki/Sprints-and-Planning)            
